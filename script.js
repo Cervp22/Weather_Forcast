@@ -76,10 +76,10 @@ searchbtn.addEventListener("click", function () {
 
       forecastTitle.style.textDecoration = "underline";
 
-      div1Date.textContent = data.list[5].dt_txt;
-      div1Temp.textContent = data.list[5].main.temp;
-      div1Wind.textContent = data.list[5].wind.speed;
-      div1Hum.textContent = data.list[5].main.humidity;
+      div1Date.textContent = data.list[1].dt_txt;
+      div1Temp.textContent = data.list[1].main.temp;
+      div1Wind.textContent = data.list[1].wind.speed;
+      div1Hum.textContent = data.list[1].main.humidity;
 
       if (div1Temp.textContent <= 70) {
         div1Icon.src = "icons/cloudy icon.png";
@@ -96,10 +96,10 @@ searchbtn.addEventListener("click", function () {
       const div2Hum = document.getElementById("div2hum");
       const div2Icon = document.getElementById("div2icon");
 
-      div2Date.textContent = data.list[13].dt_txt;
-      div2Temp.textContent = data.list[13].main.temp;
-      div2Wind.textContent = data.list[13].wind.speed;
-      div2Hum.textContent = data.list[13].main.humidity;
+      div2Date.textContent = data.list[9].dt_txt;
+      div2Temp.textContent = data.list[9].main.temp;
+      div2Wind.textContent = data.list[9].wind.speed;
+      div2Hum.textContent = data.list[9].main.humidity;
 
       if (div2Temp.textContent <= 70) {
         div2Icon.src = "icons/cloudy icon.png";
@@ -116,10 +116,10 @@ searchbtn.addEventListener("click", function () {
       const div3Hum = document.getElementById("div3hum");
       const div3Icon = document.getElementById("div3icon");
 
-      div3Date.textContent = data.list[21].dt_txt;
-      div3Temp.textContent = data.list[21].main.temp;
-      div3Wind.textContent = data.list[21].wind.speed;
-      div3Hum.textContent = data.list[21].main.humidity;
+      div3Date.textContent = data.list[17].dt_txt;
+      div3Temp.textContent = data.list[17].main.temp;
+      div3Wind.textContent = data.list[17].wind.speed;
+      div3Hum.textContent = data.list[17].main.humidity;
 
       if (div3Temp.textContent <= 70) {
         div3Icon.src = "icons/cloudy icon.png";
@@ -136,10 +136,10 @@ searchbtn.addEventListener("click", function () {
       const div4Hum = document.getElementById("div4hum");
       const div4Icon = document.getElementById("div4icon");
 
-      div4Date.textContent = data.list[29].dt_txt;
-      div4Temp.textContent = data.list[29].main.temp;
-      div4Wind.textContent = data.list[29].wind.speed;
-      div4Hum.textContent = data.list[29].main.humidity;
+      div4Date.textContent = data.list[25].dt_txt;
+      div4Temp.textContent = data.list[25].main.temp;
+      div4Wind.textContent = data.list[25].wind.speed;
+      div4Hum.textContent = data.list[25].main.humidity;
 
       if (div4Temp.textContent <= 70) {
         div4Icon.src = "icons/cloudy icon.png";
@@ -156,10 +156,10 @@ searchbtn.addEventListener("click", function () {
       const div5Hum = document.getElementById("div5hum");
       const div5Icon = document.getElementById("div5icon");
 
-      div5Date.textContent = data.list[37].dt_txt;
-      div5Temp.textContent = data.list[37].main.temp;
-      div5Wind.textContent = data.list[37].wind.speed;
-      div5Hum.textContent = data.list[37].main.humidity;
+      div5Date.textContent = data.list[33].dt_txt;
+      div5Temp.textContent = data.list[33].main.temp;
+      div5Wind.textContent = data.list[33].wind.speed;
+      div5Hum.textContent = data.list[33].main.humidity;
 
       if (div5Temp.textContent <= 70) {
         div5Icon.src = "icons/cloudy icon.png";
@@ -172,7 +172,3 @@ searchbtn.addEventListener("click", function () {
     });
 });
 
-/*
-fix date and time diplayed
-click on searchy history city 
-*/
