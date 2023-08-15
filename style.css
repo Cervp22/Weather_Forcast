@@ -1,0 +1,192 @@
+* {
+  margin: 0px;
+}
+body {
+  margin: 0px;
+}
+.maintitle {
+  text-align: center;
+  font-size: 60px;
+}
+.titlediv {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.parent {
+  text-align: center;
+}
+.main {
+  float: right;
+  width: 79.89%;
+  height: 240px;
+  border-left: 1px solid black;
+}
+.sidenav {
+  float: left;
+  width: 20%;
+  height: 900px;
+}
+.cityinput {
+  width: 50%;
+  margin-top: 10px;
+}
+.btn {
+  border-radius: 5px;
+}
+.citytitle {
+  margin-top: 30px;
+}
+
+.sidenavtitle {
+  margin-top: 30px;
+}
+.btn-group button {
+  background-color: #838685; /* Green background */
+  border: 1px solid rgb(243, 244, 243); /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 100%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3a43ee;
+}
+
+.date {
+  text-align: left;
+}
+.temp {
+  text-align: left;
+  margin-top: 20px;
+}
+.humidity {
+  text-align: left;
+  margin-top: 20px;
+}
+.wind {
+  text-align: left;
+  margin-top: 20px;
+}
+.forcast {
+  height: 500px;
+  float: right;
+  width: 100.2%;
+  border-left: 1px solid black;
+}
+
+.currenticon {
+  height: 40px;
+  width: 40px;
+}
+
+.row {
+  padding: 10px;
+}
+.div1 {
+  height: 200px;
+  width: 15%;
+  display: inline-block;
+  margin-right: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.div2 {
+  height: 200px;
+  width: 15%;
+  display: inline-block;
+  margin-right: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.div3 {
+  height: 200px;
+  width: 15%;
+  display: inline-block;
+  margin-right: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.div4 {
+  height: 200px;
+  width: 15%;
+  display: inline-block;
+  margin-right: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.div5 {
+  height: 200px;
+  width: 15%;
+  display: inline-block;
+  margin-right: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.div1temp {
+  font-size: 15px;
+  text-align: left;
+}
+.div1wind {
+  font-size: 15px;
+  text-align: left;
+}
+.div1hum {
+  font-size: 15px;
+  text-align: left;
+}
+.div2temp {
+  font-size: 15px;
+  text-align: left;
+}
+.div2wind {
+  font-size: 15px;
+  text-align: left;
+}
+.div2hum {
+  font-size: 15px;
+  text-align: left;
+}
+.div3temp {
+  font-size: 15px;
+  text-align: left;
+}
+.div3wind {
+  font-size: 15px;
+  text-align: left;
+}
+.div3hum {
+  font-size: 15px;
+  text-align: left;
+}
+.div4temp {
+  font-size: 15px;
+  text-align: left;
+}
+.div4wind {
+  font-size: 15px;
+  text-align: left;
+}
+.div4hum {
+  font-size: 15px;
+  text-align: left;
+}
+.div5temp {
+  font-size: 15px;
+  text-align: left;
+}
+.div5wind {
+  font-size: 15px;
+  text-align: left;
+}
+.div5hum {
+  font-size: 15px;
+  text-align: left;
+}

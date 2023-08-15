@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Weather Dashboard</title>
+  </head>
+  <body>
+    <nav id="titlediv" class="titlediv">
+      <h1 id="maintitle" class="maintitle">Weather Dashboard</h1>
+    </nav>
+    <div class="parent" id="parent">
+      <aside class="sidenav" id="sidenav">
+        <h1 class="sidenavtitle">Cities</h1>
+        <div>
+          <input
+            class="cityinput"
+            id="cityinput"
+            type="text"
+            placeholder="Search City.."
+          />
+          <button class="btn" id="btn">Search</button>
+        </div>
+        <nav class="prefixed-cities" id="prefixed-cities">
+          <br />
+          <br />
+          <div class="btn-group" id="btn-group">
+          
+          </div>
+        </nav>
+      </aside>
+      <main class="main" id="main">
+        <h1 id="citytitle" class="citytitle">Choose/Search a City</h1>
+        <div id="citycontent">
+          <h2 class="date">Date: <span id="date"></span></h2>
+          <h2 class="temp">Temperature: <span id="temperature"> </span>°F  <img id="currenticon" class="currenticon" alt=""></h2>
+          <h2 class="wind">Wind Speed: <span id="wind"></span> mph</h2>
+          <h2 class="humidity">Humidity: <span id="humidity"></span>%</h2>
+        </div>
+        <article id="forcast" class="forcast">
+          <div class="divtitle">
+            <h1 id="forcasttitle"></h1>
+          </div>
+          <div id="row" class="row">
+            <div class="div1">
+              <h3>Date: <span id="div1date"></span></h3>
+              <img id="div1icon" alt="">
+              <h6 class="div1temp">Temp: <span id="div1temp"></span>°F</h6>
+              <h6 class="div1wind">Wind: <span id="div1wind"></span> mph</h6>
+              <h6 class="div1hum">Humidity: <span id="div1hum"></span>%</h6>
+            </div>
+            <div class="div2">
+              <h3 class="div2date">Date: <span id="div2date"></span></h3>
+              <img id="div2icon" alt="">
+              <h6 class="div2temp">Temp: <span id="div2temp"></span>°F</h6>
+              <h6 class="div2wind">Wind: <span id="div2wind"></span> mph</h6>
+              <h6 class="div2hum">Humidity: <span id="div2hum"></span>%</h6>
+            </div>
+            <div class="div3">
+              <h3 class="div3date">Date: <span id="div3date"></span></h3>
+              <img id="div3icon" alt="">
+              <h3 class="div3temp">Temp: <span id="div3temp"></span>°F</h3>
+              <h6 class="div3wind">Wind: <span id="div3wind"></span> mph</h6>
+              <h6 class="div3hum">Humidity: <span id="div3hum"></span>%</h6>
+            </div>
+            <div class="div4">
+              <h3 class="div4date">Date: <span id="div4date"></span></h3>
+              <img id="div4icon" alt="">
+              <h6 class="div4temp">Temp: <span id="div4temp"></span>°F</h6>
+              <h6 class="div4wind">Wind: <span id="div4wind"></span> mph</h6>
+              <h6 class="div4hum">Humidity: <span id="div4hum"></span>%</h6>
+            </div>
+            <div class="div5">
+              <h3 class="div5date">Date: <span id="div5date"></span></h3>
+              <img id="div5icon" alt="">
+              <h6 class="div5temp">Temp: <span id="div5temp"></span>°F</h6>
+              <h6 class="div5wind">Wind: <span id="div5wind"></span> mph</h6>
+              <h6 class="div5hum">Humidity: <span id="div5hum"></span>%</h6>
+            </div>
+          </div>
+          </article>
+      </main>
+
+
+    <script src="script.js"></script>
+ 
+  </body>
+</html>
